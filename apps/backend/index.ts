@@ -4,6 +4,9 @@ import { log } from 'console';
 import express from 'express';
 import cors from 'cors';
 import middleware from './middleware.js';
+import {prisma} from "db"
+
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
