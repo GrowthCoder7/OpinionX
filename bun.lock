@@ -22,13 +22,13 @@
         "@types/cors": "^2.8.19",
         "@types/express": "^5.0.6",
         "cors": "^2.8.6",
+        "db": "workspace:*",
         "express": "^5.2.1",
       },
       "devDependencies": {
         "@types/bun": "latest",
       },
       "peerDependencies": {
-        "db": "*",
         "typescript": "^5.9.2",
       },
     },

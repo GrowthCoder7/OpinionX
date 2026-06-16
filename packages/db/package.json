@@ -2,8 +2,8 @@
   "name": "db",
   "module": "db.ts",
   "type": "module",
-  "export":{
-    "./":"./db.ts"
+  "exports": {
+    ".": "./db.ts"
   },
   "private": true,
   "devDependencies": {

@@ -6,14 +6,14 @@ import cors from 'cors';
 import middleware from './middleware.js';
 import {prisma} from "db"
 
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(cors());
 
-app.post('/buy', middleware, (req, res) => { 
+app.post('/buy', middleware, (req, res) => {
+    
     res.json({msg:"Hi"})
 });
 
